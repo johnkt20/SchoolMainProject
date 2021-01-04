@@ -2,10 +2,11 @@ package students;
 
 public class Student {
  private int sudentId;
- private String studentName;
-	public static void main(String[] args) {
+ private static String studentName;
+public static void main(String[] args) {
 		// TODO Auto-generated method stub
       System.out.println("hello student");
+      System.out.println("StudentName:"+ getStudentName());
 	}
 	public int getSudentId() {
 		return sudentId;
@@ -13,7 +14,7 @@ public class Student {
 	public void setSudentId(int sudentId) {
 		this.sudentId = sudentId;
 	}
-	public String getStudentName() {
+	public static String getStudentName() {
 		return studentName;
 	}
 	public void setStudentName(String studentName) {
