@@ -7,6 +7,7 @@ public static void main(String[] args) {
 		// TODO Auto-generated method stub
       System.out.println("hello student");
       System.out.println("StudentName:"+ getStudentName());
+	System.out.println("student age");
 	}
 	public int getSudentId() {
 		return sudentId;
