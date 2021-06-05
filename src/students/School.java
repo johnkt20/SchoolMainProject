@@ -6,7 +6,7 @@ public class School{
 		System.out.println("print school");
 
 		System.out.println("print ID");
-
+System.out.println("print my name");
 
 
 	}
